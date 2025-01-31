@@ -98,7 +98,7 @@ class TravelingController extends Controller
         $country_id= $request->get('country_id');
         $price=$request->get('price');
 
-        $searches= City::where('country_id',$country_id)->where('price','<=',$price)->orderBy('id','desc')->take(4)->get();
+        $searches= City::where('country_id',$country_id)->where('price','<=',($price))->orderBy('id','desc')->take(4)->get();
 
         $countries= Country::all();
         return view('traveling.searchdeals',compact('searches','countries'));

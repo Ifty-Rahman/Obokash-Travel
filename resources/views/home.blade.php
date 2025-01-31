@@ -24,15 +24,15 @@
                     <div class="row">
                       <div class="col-lg-3 col-sm-6 col-6">
                         <i class="fa fa-user"></i>
-                        <h4><span>Population:</span><br>{{ $country->population }}</h4>
+                        <h4><span>Population:</span><br>{{ $country->population }}<em>mil</em></h4>
                       </div>
                       <div class="col-lg-3 col-sm-6 col-6">
                         <i class="fa fa-globe"></i>
-                        <h4><span>Territory:</span><br>{{ $country->territory }}<em>2</em></h4>
+                        <h4><span>Territory:</span><br>{{ $country->territory }}<em>KM2</em></h4>
                       </div>
                       <div class="col-lg-3 col-sm-6 col-6">
                         <i class="fa fa-home"></i>
-                        <h4><span>AVG Price:</span><br>{{ $country->avg_price }}</h4>
+                        <h4><span>AVG Price:</span><br>{{ $country->avg_price }}<em>$</em></h4>
                       </div>
                       <div class="col-lg-3 col-sm-6 col-6">
                         <div class="main-button">
@@ -67,7 +67,7 @@
         <div class="col-lg-5">
           <div class="section-heading">
             <h2>Visit One Of Our Countries Now</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <p>Embark on journeys that create lifelong memories with Obokash Travels – where every destination is an adventure waiting to be discovered</p>
           </div>
         </div>
       </div>

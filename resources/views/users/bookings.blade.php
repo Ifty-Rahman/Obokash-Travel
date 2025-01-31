@@ -45,7 +45,7 @@
       <td>{{  $booking->name }}</td>
       <td>{{  $booking->phone_number }}</td>
       <td>{{  $booking->destination }}</td>
-      <td>{{  $booking->check_ind_date }}</td>
+      <td>{{  $booking->check_in_date }}</td>
       <td>{{  $booking->destination }}</td>
       <td>{{  $booking->price }}</td>
       <td>{{  $booking->status }}</td>

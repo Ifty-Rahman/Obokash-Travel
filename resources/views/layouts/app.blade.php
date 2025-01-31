@@ -102,7 +102,7 @@
             <div class="col-12">
                 <nav class="main-nav">
                     <!-- ***** Logo Start ***** -->
-                    <a href="index.html" class="logo">
+                    <a href="{{route('home')}}" class="logo">
                         <img src="{{asset('assets/images/logo.png')}}" alt="">
                     </a>
                     <!-- ***** Logo End ***** -->
@@ -167,8 +167,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <p>Copyright © 2036 <a href="#">WoOx Travel</a> Company. All rights reserved. 
-          <br>Design: <a href="https://templatemo.com" target="_blank" title="free CSS templates">TemplateMo</a> Distribution: <a href="https://themewagon.com target="_blank" >ThemeWagon</a></p>
+          <p>Copyright © 2024 <a href="#">Obokash Travels</a> Company. All rights reserved. 
+       
         </div>
       </div>
     </div>

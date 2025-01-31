@@ -38,12 +38,10 @@
               <div class="col-lg-4">
                   <fieldset>
                       <select name="price" class="form-select" aria-label="Default select example" id="choosePrice" onChange="this.form.click()">
-                          <option selected>Price Range</option>
-                          <option value="100">$100 </option>
-                          <option value="250">$250 </option>
-                          <option value="500">$500 </option>
-                          <option value="1000">$1,000 </option>
-                          
+                      <option selected>Price Range</option>
+                          <option value=500>$500 </option>
+                          <option value=1000>$1000 </option>
+                          <option value=1500>$1500 </option>
                       </select>
                   </fieldset>
               </div>
@@ -83,6 +81,7 @@
                 <div class="content">
                   <span class="info">*Limited Offer Today</span>
                   <h4>{{ $city->name }}</h4>
+                  <h4>{{ $city->price }} $</h4>
                   <div class="row">
                     <div class="col-6">
                       <i class="fa fa-clock"></i>
